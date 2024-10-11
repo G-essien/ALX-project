@@ -1,9 +1,11 @@
+import Convert from "../Assets/Convert"
 
 function Home() {
   return (
-    <div>
-      <h1>The main active bossu page</h1>
-    </div>
+    <main className="flex justify-center flex-col items-center">
+      <h1 className="mt-[50px] text-5xl">CuCov Currency Converter</h1>
+      <Convert />
+    </main>
   )
 }
 
