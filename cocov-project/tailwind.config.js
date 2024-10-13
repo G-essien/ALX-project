@@ -9,7 +9,11 @@ export default {
       sans: ['lexend', 'sans-serif'],
       serif: ['Roboto','sans-serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'header-image': "url('./src/images/backgroundImage.png')",
+      }
+    },
   },
   plugins: [],
 }

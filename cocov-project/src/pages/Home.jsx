@@ -1,10 +1,11 @@
-import Convert from "../Assets/Convert"
+import Currencyconverter from "../Assets/Currencyconverter"
 
 function Home() {
   return (
-    <main className="flex justify-center flex-col items-center">
-      <h1 className="mt-[50px] text-5xl">CuCov Currency Converter</h1>
-      <Convert />
+    <main className="min-h-screen flex justify-center flex-col items-center">
+     <div className="">
+      <Currencyconverter />
+     </div>
     </main>
   )
 }

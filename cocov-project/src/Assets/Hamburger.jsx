@@ -5,7 +5,7 @@ import { faGreaterThan, faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 
  function Hamburger() {
    return (
-     <div className="ms:hidden py-4 px-[3px] border bg-[#76421A] w-full">
+     <div className="hidden py-4 px-[3px] border bg-[#76421A] w-full">
         <Link to="/">
             <FontAwesomeIcon icon={faArrowLeft} className="text-white"/>
         </Link>
