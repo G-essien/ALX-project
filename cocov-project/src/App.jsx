@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <div className="box-border w-full">
+    <div className="box-border w-full h-screen flex justify-between flex-col">
       <Header />
       <Outlet />
       <Footer />
