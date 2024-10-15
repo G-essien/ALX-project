@@ -1,10 +1,10 @@
-import Hero from '../images/Hero.png'
+
 
 function AboutMe() {
   return (
     <div className='w-screen grid grid-cols-1 h-full justify-start items-center px-5 mb-7 mt-[100px] gap-3'>
       <div className='h-a  border border-green-800'>
-        <img src={Hero} className='h-auto min-w-[120px]' alt="about-image" />
+        <img className='h-auto min-w-[120px]' alt="about-image" />
       </div>
       <div className='flex flex-col border border-red-800 justify-start gap-3 items-center w'>
         <h1 className='text-lg font-semibold'>Godfred Essien</h1>
