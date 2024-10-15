@@ -27,28 +27,26 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="w-3/4 my-10 p-3 mx-auto border border-green-500 flex flex-col justify-start items-center">
+    <div className="w-screen h-full flex flex-col mt-[100px] justify-start items-center px-3">
 
-
-      <form className="w-full flex flex-col" onSubmit={onSubmit}>
-
+      <div className=" flex justify-start items-center w-full p-3 shadow-lg">
+      <form className="w-full" onSubmit={onSubmit}>
         <label>Name <br />
-        <input className="w-full border focus:outline-none border-gray-200" type="text" name="name" required/>  
+        <input className="border border-gray-400 focus:outline-none w-full" type="text" name="name" required/>  
         </label> <br />
 
         <label>Email <br />
-        <input className="w-full border focus:outline-none border-gray-200" type="email" name="email" required/>   
+        <input className="border border-gray-400 focus:outline-none w-full" type="email" name="email" required/>   
         </label> <br />
 
         <label>Message <br />
-        <textarea className="w-full h-20 border focus:outline-none border-gray-200" name="message" required></textarea> 
+        <textarea className="border border-gray-400 focus:outline-none w-full" name="message" required></textarea> 
         </label> <br />  
 
-        <button className="border border-gray-200 py-4 px-6 rounded-md justify-center hover:bg-gray-700 hover:text-white" type="submit">Submit Form</button>
-
-      </form>
-      <span>{result}</span>
-
+        <button className="border-gray-400 text-center border px-5 hover:text- py-2" type="submit">Submit Form</button>
+        </form>
+      </div>
+      <span className="w-full p-2 text-center mt-1">{result}</span>
     </div>
   );
 }

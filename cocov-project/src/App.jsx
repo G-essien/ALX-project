@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <div className="box-border w-full h-screen flex justify-between flex-col">
+    <div className="box-border w-full h-full flex bg-gradient-to-r from-[#FBAB7E] to-[#F7CE68] justify-between flex-col">
       <Header />
       <Outlet />
       <Footer />
